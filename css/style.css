@@ -47,8 +47,7 @@ img {
 
 /* LAYOUT */
 .container {
-    max-width: 1140px;
-    /* add maxWidth */
+    width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -130,83 +129,62 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+
+/* mobile layout */
+
 @media screen and (max-width: 480px) {
     .why-us {
         background-color: #222;
     }
-}
 
-@media screen and (max-width: 480px) {
     .container {
-        background-color:
-            width: 100%;
+        max-width: 480px;
     }
-}
 
-@media screen and (max-width: 480px) {
     .row {
         flex-direction: column;
         align-items: center;
     }
-}
 
-
-@media screen and (max-width: 480px) {
     .lessons .col {
         width: 100%;
     }
-}
 
-@media screen and (max-width: 480px) {
     .steps .col {
         width: 100%;
     }
-}
 
-@media screen and (max-width: 480px) {
     .why-us .col-left {
         width: 100%;
     }
-}
 
-@media screen and (max-width: 480px) {
     .why-us .col-right {
         width: 100%;
     }
-}
 
-@media screen and (max-width: 480px) {
     img {
         margin-bottom: 4rem;
     }
-}
 
-@media screen and (max-width: 480px) {
     .card {
         margin-bottom: 4rem;
     }
-}
 
-@media screen and (max-width: 480px) {
     h1 {
         font-size: 3rem;
     }
-}
 
-@media screen and (max-width: 480px) {
     h2 {
         font-size: 2.5rem;
     }
-}
 
-@media screen and (max-width: 480px) {
     h3 {
         font-size: 2rem;
     }
-}
 
-@media screen and (max-width: 480px) {
     p {
         font-size: 1.3rem;
     }
 }
+
+/* **tablet layout** */
